@@ -1,0 +1,734 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column release_year using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column release_year using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column release_year using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column release_year using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "(1920)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1920"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "(1921)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1921"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "grel:value.replace(\"(\", \"\").replace(\")\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column release_year using expression grel:value.replace(\"(\", \"\").replace(\")\", \"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 1985"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1985"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 1995"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1995"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2001"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2001"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2004"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2004"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2006"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2006"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2007"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2007"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2008"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2008"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2010"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2010"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2011"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2011"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2013"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2013"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2014"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2014"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2015"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2015"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2016"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2016"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2017"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2017"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2019"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2019"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "I 2020"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2020"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "II 2016"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2016"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "II 2018"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2018"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "II 2022"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2022"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "III 2016"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2016"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "III 2018"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2018"
+      }
+    ],
+    "description": "Mass edit cells in column release_year"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "release_year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column release_year using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "release_year",
+          "expression": "value",
+          "columnName": "release_year",
+          "from": 2020,
+          "to": 2030,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "runtime",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column runtime using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "release_year",
+          "expression": "value",
+          "columnName": "release_year",
+          "from": 2020,
+          "to": 2030,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "runtime",
+    "expression": "grel:value.replace(\" min\",\"\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column runtime using expression grel:value.replace(\" min\",\"\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "runtime",
+    "expression": "grel:value.replace(\" min\",\"\").toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column runtime using expression grel:value.replace(\" min\",\"\").toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "runtime",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column runtime using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "runtime",
+    "newColumnName": "runtime_in_minutes",
+    "description": "Rename column runtime to runtime_in_minutes"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "rating",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column rating using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "metascore",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column metascore using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "metascore",
+          "expression": "value",
+          "columnName": "metascore",
+          "from": 0,
+          "to": 38,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "gross",
+    "expression": "grel:value.replace(\"$\",\"\").replace(\"M\",\"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column gross using expression grel:value.replace(\"$\",\"\").replace(\"M\",\"\").trim()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "gross",
+    "newColumnName": "gross_in_millions",
+    "description": "Rename column gross to gross_in_millions"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "metascore",
+          "expression": "value",
+          "columnName": "metascore",
+          "from": 0,
+          "to": 38,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "gross_in_millions",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column gross_in_millions using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "gross_in_millions",
+    "expression": "grel:value.replace(\"$\",\"\").replace(\"M\",\"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column gross_in_millions using expression grel:value.replace(\"$\",\"\").replace(\"M\",\"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "gross_in_millions",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column gross_in_millions using expression value.toNumber()"
+  }
+]
