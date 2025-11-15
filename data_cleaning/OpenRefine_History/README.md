@@ -44,7 +44,7 @@ Refer to the Analysis.md files for a comprehensive interpretation of these actio
 
 ## Semi-Clean CSVs
 
-IMDB_OpenRefine_Semi_Clean.csv & TMDB_OpenRefine_Semi_Clean.csv
+## IMDB_OpenRefine_Semi_Clean.csv & TMDB_OpenRefine_Semi_Clean.csv
 
 Contains intermediate outputs after initial transformations in OpenRefine.
 
