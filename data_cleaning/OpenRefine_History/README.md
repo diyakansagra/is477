@@ -34,7 +34,7 @@ Provides a clear view of the decision-making process for cleaning.
 
 ## History Files
 
-IMDB_OpenRefine_History.json & TMDB_OpenRefine_History.json
+## IMDB_OpenRefine_History.json & TMDB_OpenRefine_History.json
 
 JSON logs showing the analysis and transformations performed in OpenRefine.
 
