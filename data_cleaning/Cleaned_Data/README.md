@@ -1,3 +1,5 @@
+## Cleaned_Data Folder:
+
 This folder contains the finalized cleaned datasets for this project:
 
 ## 'imdb_cleaned.csv`
