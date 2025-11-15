@@ -1,4 +1,4 @@
-## Python Cleaning Scripts Folder:
+## python_cleaning_scripts Folder:
 
 This folder contains the Python scripts used to clean and standardize the IMDb and TMDB movie datasets. These scripts were developed after inspecting the OpenRefine project files in the OpenRefine_History folder, where inconsistencies, missing values, and other data quality issues were first identified.The Python scripts resolve these disparities and produce the finalized, cleaned datasets, which are also included in this folder.
 
