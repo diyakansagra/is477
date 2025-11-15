@@ -1,4 +1,4 @@
-## OpenRefine History Folder README
+## OpenRefine_History Folder 
 
 This folder contains the OpenRefine project files documenting the initial exploration and pre-cleaning of the IMDb and TMDB movie datasets. OpenRefine was used to:
 
