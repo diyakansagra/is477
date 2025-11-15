@@ -1,4 +1,4 @@
-This folder contains the cleaned datasets for this project:
+This folder contains the finalized cleaned datasets for this project:
 
 - 'imdb_cleaned.csv` – the IMDb dataset after Python-based cleaning.
 - 'tmdb_cleaned.csv` – the TMDB dataset after Python-based cleaning.
