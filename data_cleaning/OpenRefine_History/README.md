@@ -20,7 +20,7 @@ Semi-cleaned output that guided further Python-based cleaning.
 
 It supports transparency and reproducibility in the project workflow.
 
-## Contents
+## Contents:
 
 ## Analysis Files
 
