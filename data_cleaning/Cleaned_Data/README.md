@@ -1,6 +1,6 @@
 This folder contains the finalized cleaned datasets for this project:
 
-## 'imdb_cleaned.csv`:
+## 'imdb_cleaned.csv`
 
 The IMDb dataset after Python-based cleaning.
 
