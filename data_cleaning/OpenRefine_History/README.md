@@ -1,4 +1,4 @@
-This folder contains the OpenRefine project files documenting the initial data exploration and cleaning process for the movie datasets. OpenRefine was used to identify inconsistencies, missing values, duplicate entries, and other potential issues in the datasets.
+This folder contains the OpenRefine project files documenting the initial data exploration and cleaning process for the movie datasets. OpenRefine was used to identify inconsistencies, missing values, duplicate entries, and other potential issues in the datasets. This folder contains the first steps taken to identify disparities in the datasets.
 
 I also included an in-depth analysis of each pre-cleaning step I took in OpenRefine for both datasets.
 
