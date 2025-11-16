@@ -1,4 +1,4 @@
-## Status Report (Weeks 1-4 completely done, subject to updates after midterm report feedback)
+## Status Report (Weeks 1-3 completely done, subject to updates after midterm report feedback. Week 4 mostly complete, will work on finalizing it before Fall break)
 
 **Project Overview (from Project Plan):** Our project explores the relationship between movie characteristics such as genre, budget, release year, and their audience ratings and popularity. By integrating and analyzing two large movie datasets from IMDb and TMDB, we aim to identify trends that influence how well a movie performs. Our project will follow a complete data lifecycle, including acquisition, storage, cleaning, integration, analysis, and documentation, while emphasizing ethical handling, reproducibility, and transparency.
 
