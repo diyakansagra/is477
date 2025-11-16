@@ -81,6 +81,6 @@ Start drafting a Week 4 EDA summary Markdown file (Week_4_EDA.md) describing:
 
 - Week_4_EDA.md – Markdown summary of exploratory analysis
 
-- Plots folder with preliminary figures (Week_4_EDA/plots/)
+- Plots folder with preliminary figures (Week_4_EDA_plots)
 
-- Tables folder with grouped summaries and pivot tables (Week_4_EDA/tables/)
+- Tables folder with grouped summaries and pivot tables (Week_4_EDA_tables)
