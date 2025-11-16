@@ -92,6 +92,8 @@ genre_norm: lowercase, stripped.
 
 •	Resolve any conflicts or inconsistencies in numeric or categorical fields where both sources provide values (Many errors arose from having the same column titles, I had to fix this in the code by trial and error a few times).
 
+• IMDb columns remain untouched because IMDb is treated as the primary source. TMDB only fills missing numerical/financial fields.
+
 •	Create final columns with clear provenance: runtime_imdb, runtime_tmdb, genre_imdb, genre_tmdb, etc.
 
 •	_merge_status column preserves provenance: "both", "fuzzy", "left_only".
@@ -133,7 +135,7 @@ genre_norm: lowercase, stripped.
          Resolve Conflicts → Generate Final Dataset → Save CSV + Merge Log
 ### Workflow Summary:
 
-First I loaded the IMDb and TMDB datasets and cleaned up the column names and data types. Next, I performed an exact merge using normalized movie titles and release years to match records that line up perfectly. Any IMDb rows that don’t find a match go through a fuzzy matching step to find the closest TMDB record based on title similarity. For these matches, I fill in missing TMDB values with the IMDb data so the dataset is as complete as possible. Finally, I resolved conflicts (like differences in runtimes or genres), created clear final columns, and saved the merged dataset along with a log summarizing the merging results.
+First I loaded the IMDb and TMDB datasets and cleaned up the column names and data types. Next, I performed an exact merge using normalized movie titles and release years to match records that line up perfectly. Any IMDb rows that don’t find a match go through a fuzzy matching step to find the closest TMDB record based on title similarity. For these matches, I fill missing TMDB values using the matched TMDB row. IMDb values are used directly and never overwritten. Finally, I resolved conflicts (like differences in runtimes or genres), created clear final columns, and saved the merged dataset along with a log summarizing the merging results.
 
 ## Integration Steps
 
