@@ -8,7 +8,7 @@
 
 ## Week 1 — Dataset Acquisition & Ethical Review - Diya
 
-###  Status: Finalizing  ✅
+###  Status: Completed/Finalizing  ✅
 
 I acquired both the IMDb Top 1000 and TMDb Movie Metadata datasets from Kaggle and began reviewing their ethical, licensing, and provenance implications. Because both datasets are from Kaggle rather than being official releases, their licensing is not explicitly stated, which raises reproducibility and compliance concerns. The IMDb dataset was scraped by the uploader, Arthur Chong, using Scrapy and is not an officially issued IMDb dataset, and since IMDb’s data is under restrictive terms, this version should be treated as only for academic and personal use and may not permit redistribution. The TMDb dataset was generated using the TMDb API but is not officially certified by TMDb, and although TMDb data is generally available for non-commercial use, the lack of a clear license on Kaggle means redistribution of the modified dataset may also be restricted. To address these concerns, I am documenting the provenance of both datasets, clearly noting that our use is limited to personal and academic purposes, and planning to include attribution and usage constraints in our README.
 
@@ -82,7 +82,7 @@ imdb_cleaned.csv
 
 tmdb_cleaned.csv
 
-These are the fully cleaned datasets derived from the python scripts while utilizing out findings from the OpenRefine exploration, these sets are ready for Week 3 integration.
+These are the fully cleaned datasets derived from the python scripts while utilizing my findings from the OpenRefine exploration, these sets are ready for Week 3 integration.
 
 ## Week 3 IMDb & TMDB Integration - Brianna
 
@@ -126,7 +126,7 @@ This week involved building the complete integration pipeline. Major steps:
 
 - used token_sort_ratio
 
-- applied thresholds to reduce false positives
+- applied thresholds to reduce false positives in the data
 
 - matched previously unmatched IMDb/TMDB rows
 
@@ -134,7 +134,7 @@ This week involved building the complete integration pipeline. Major steps:
 
 - Filled missing IMDb fields using TMDB (and vice versa).
 
-- Some missingness remains by design, because:
+- Some missingness remains by design, this is expected because:
 
 - IMDb tracks metascore + gross revenue → TMDB does not
 
@@ -148,9 +148,9 @@ This week involved building the complete integration pipeline. Major steps:
 
 - prefer TMDB for popularity/ratings
 
-- use longest overview text
+- use longest overview text for precision
 
-- infer runtime columns from different naming conventions (runtime_imdb, runtime_in_minutes, etc.)
+- infer the runtime columns from different naming conventions (runtime_imdb, runtime_in_minutes, and more)
 
 6. Output Generation
 
@@ -182,13 +182,13 @@ For Week 4, so far Brianna completed the exploratory data analysis (EDA) of the 
 
 ### Variable Analysis
 
-Plotted distributions of numeric variables (budget_in_millions, revenue_in_millions, popularity, rating_imdb, vote_average_tmdb, runtime_imdb, runtime_tmdb) to identify skewness, outliers, and typical ranges.
+Plotted distributions of numeric variables (budget_in_millions, revenue_in_millions, popularity, rating_imdb, vote_average_tmdb, runtime_imdb, runtime_tmdb) to identify skews in data, outliers, and typical ranges.
 
-Plotted categorical variables (genre_imdb, genre_tmdb, release_year) using bar charts and histograms to examine frequency distributions.
+Plotted categorical variables (genre_imdb, genre_tmdb, release_year) using bar charts and histograms to examine the different distributions.
 
 Computed descriptive statistics (mean, median, standard deviation, min/max) and missing value counts for numeric columns.
 
-### Notes: Initial observations on skewness, outliers, and trends were documented to guide Week 5 deeper analysis.
+### Notes: Initial observations on skewness, outliers, and trends were documented as comments in the files to guide Week 5 deeper analysis.
 
 ### Correlation Analysis
 
@@ -210,15 +210,16 @@ Color-coded by genre to identify initial patterns or clustering by movie type.
 
 Identified variables with missing values.
 
-Documented rationale for persistent missing data due to differences between IMDb and TMDB tracking (e.g., revenue vs popularity).
+Documented rationale for persistent missing data due to differences between IMDb and TMDB tracking (like revenue vs popularity).
 
 ### Notes: Rows will be used cautiously in Week 5 to ensure only relevant, complete data is included for each analysis.
 
 ### Additional Notes:
 
-The notebook and .py files include thorough inline comments explaining what each step does, why it is performed, and how it relates to the research questions.
+The notebook and .py files include thorough comments explaining what each step does, why it is performed, and how it relates to the research questions.
 
-The EDA serves as a foundation for Week 5, highlighting trends, outliers, and patterns that inform deeper analysis and visualization.
+The EDA (Exploratory Data Analysis) serves as a foundation for Week 5, highlighting trends, outliers, and patterns that will help guide deeper analysis and visualization.
+
 Observations and initial findings were noted for later interpretation, including skewed distributions, common genres, and correlations worth exploring further.
 
 ## Work Created:
@@ -235,17 +236,15 @@ Initial plots saved in Week_4_EDA_plots/ folder for reference.
 
 - Originally planned only exact matching.
 
-- Because of title inconsistencies, fuzzy matching became essential.
+- Because of title inconsistencies, fuzzy matching became essential to use during integration.
 
 2. Expanded Cleaning Pipeline
 
-- OpenRefine → Python workflow became more detailed to ensure reproducibility and transparency.
+- OpenRefine → Python workflow became more detailed to ensure reproducibility and transparency, I completed alot of trial and error to get the integration to work.
 
-3. Additional Documentation Artifacts
+3. Additional Analysis Documentation that was not originally planned.
 
-### We added:
-
-- integration workflow diagram
+### Since the Porject Plan, we added:
 
 - extended analysis files
 
@@ -273,7 +272,7 @@ Initial plots saved in Week_4_EDA_plots/ folder for reference.
 
 3. Runtime Column Variation
 
-- IMDb had multiple runtime column names; TMDB had different ones.
+- IMDb had multiple runtime column names and TMDB had different ones.
 
 - We solved this with inference logic to detect whichever runtime field was present.
 
@@ -292,6 +291,8 @@ Initial plots saved in Week_4_EDA_plots/ folder for reference.
 - Explored raw datasets in Week 1
 
 - Helped outline Exploration plan for Week 4
+
+- Started Week 4 tasks
 
 - Will lead workflow automation + documentation in Week 6
 
