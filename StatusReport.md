@@ -286,7 +286,9 @@ Initial plots saved in Week_4_EDA_plots/ folder for reference.
 
 - Completed all dataset acquisition and ethics review
 
-- Wrote notes on data licensing
+- Wrote notes on data licensing (Working on uploading them to GIT)
+
+- Working on finding licensing information to address the feedback on our Project Plan
 
 - Explored raw datasets in Week 1
 
