@@ -8,13 +8,13 @@
 
 ## Week 1 — Dataset Acquisition & Ethical Review - Diya
 
-###  Status: Completed
+###  Status: Completed ✅
 
 I acquired both the IMDb Top 1000 and TMDb Movie Metadata datasets from Kaggle and began reviewing their ethical, licensing, and provenance implications. Because both datasets are from Kaggle rather than being official releases, their licensing is not explicitly stated, which raises reproducibility and compliance concerns. The IMDb dataset was scraped by the uploader, Arthur Chong, using Scrapy and is not an officially issued IMDb dataset, and since IMDb’s data is under restrictive terms, this version should be treated as only for academic and personal use and may not permit redistribution. The TMDb dataset was generated using the TMDb API but is not officially certified by TMDb, and although TMDb data is generally available for non-commercial use, the lack of a clear license on Kaggle means redistribution of the modified dataset may also be restricted. To address these concerns, I am documenting the provenance of both datasets, clearly noting that our use is limited to personal and academic purposes, and planning to include attribution and usage constraints in our README.
 
 ## Week 2 Data Cleaning (Missing Values, Duplicates, Outliers) - Brianna
 
-### Status: Completed 
+### Status: Completed ✅
 
 ## Work Completed in Main Folder (data_cleaning):
 
@@ -159,3 +159,7 @@ This week involved building the complete integration pipeline. Major steps:
 - merge_log.json = transparent report of match counts, fuzzy matches, exact matches, and unmatched rows
 
 - A full conceptual workflow diagram and written explanation exist in IMDB_TMDB_Analysis.md.
+
+## Week 4 Exploratory Data Analysis (Brianna & Diya)
+
+## Status: Completed ✅
