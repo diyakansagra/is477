@@ -275,4 +275,4 @@ We completed Weeks 1–4 exactly on schedule and produced a fully cleaned and in
 | 4    | Conduct exploratory data analysis | Both | 80% Completed (All parts to be completed by Friday Nov 21st)| Initial graphs & descriptive stats/initial analysis |
 | 5    | Create visualizations & interpret findings | Brianna | Planned (to be completed by Sunday, Nov 23) | Visualizations (correlation heatmap, trends) |
 | 6    | Automate workflow & finalize documentation | Diya | Planned for first week of December | Reproducible pipeline & README |
-| 7    | Submit final GitHub release | Both | Planned Dec 6–9 for final checks, submission Dec 10 | Final project submission |
+| 7    | Submit final GitHub release | Both | Planned Dec 6–9 for final checks, submission Dec 10 | Final project submission (Including adding outputs to the 'Box') |
