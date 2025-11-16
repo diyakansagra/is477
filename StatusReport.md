@@ -86,7 +86,7 @@ These are the fully cleaned datasets derived from the python scripts while utili
 
 ## Week 3 IMDb & TMDB Integration - Brianna
 
-### Status - Completed 
+### Status - Completed ✅
 
 ## Work Completed in Main Folder (data_integration):
 
