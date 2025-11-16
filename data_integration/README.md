@@ -10,7 +10,7 @@ A comprehensive explanation of the entire integration process. This document wal
 
 The Jupyter Notebook version of the integration code.
 
-It contains brief inline comments explaining the logic behind each step.
+It contains brief comments explaining the logic behind each step.
 
 More detailed explanations are reserved for the analysis document above.
 
