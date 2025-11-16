@@ -8,7 +8,7 @@
 
 ## Week 1 — Dataset Acquisition & Ethical Review - Diya
 
-###  Status: Completed ✅
+###  Status: Finalizing  ✅
 
 I acquired both the IMDb Top 1000 and TMDb Movie Metadata datasets from Kaggle and began reviewing their ethical, licensing, and provenance implications. Because both datasets are from Kaggle rather than being official releases, their licensing is not explicitly stated, which raises reproducibility and compliance concerns. The IMDb dataset was scraped by the uploader, Arthur Chong, using Scrapy and is not an officially issued IMDb dataset, and since IMDb’s data is under restrictive terms, this version should be treated as only for academic and personal use and may not permit redistribution. The TMDb dataset was generated using the TMDb API but is not officially certified by TMDb, and although TMDb data is generally available for non-commercial use, the lack of a clear license on Kaggle means redistribution of the modified dataset may also be restricted. To address these concerns, I am documenting the provenance of both datasets, clearly noting that our use is limited to personal and academic purposes, and planning to include attribution and usage constraints in our README.
 
