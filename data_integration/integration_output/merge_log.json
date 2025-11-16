@@ -1,0 +1,11 @@
+{
+  "imdb_total_rows": 705,
+  "tmdb_total_rows": 3177,
+  "exact_match_count": 379,
+  "left_only_before_fuzzy": 326,
+  "fuzzy_match_count": 8,
+  "final_merged_rows": 705,
+  "exact_matches_saved": 379,
+  "fuzzy_matches_saved": 8,
+  "unmatched_imdb_saved": 318
+}
