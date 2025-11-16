@@ -1,4 +1,4 @@
-This folder contains all initial data analysis done with our integration set. We revisit our researach questions and conduct analysis to draw tangible conclusions from the dataset.
+This folder contains all initial Exploratory Data Analysis (EDA) done with our integration set. We revisit our researach questions and conduct analysis to draw tangible conclusions from the dataset.
 
 ## Goal:
 
