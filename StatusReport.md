@@ -163,3 +163,116 @@ This week involved building the complete integration pipeline. Major steps:
 ## Week 4 Exploratory Data Analysis (Brianna & Diya)
 
 ## Status: Completed ✅
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Changes to the Project Plan
+
+1. Added Fuzzy Matching Step
+
+- Originally planned only exact matching.
+
+- Because of title inconsistencies, fuzzy matching became essential.
+
+2. Expanded Cleaning Pipeline
+
+- OpenRefine → Python workflow became more detailed to ensure reproducibility and transparency.
+
+3. Additional Documentation Artifacts
+
+### We added:
+
+- integration workflow diagram
+
+- extended analysis files
+
+- .py versions of notebooks
+
+- merge log reporting
+
+- These were not in the initial plan but significantly strengthen clarity and transparency.
+
+4. Clarified Division of Labor
+
+- More explicit responsibilities for Weeks 5–7.
+
+## Challenges & How We Addressed Them
+
+1. Title Format Inconsistencies
+
+- Resolved through aggressive normalization + fuzzy matching.
+
+2. Schema Mismatch Between IMDb & TMDB
+
+- Some fields exist only in one source.
+
+- Documented this clearly in IMDB_TMDB_Analysis.md.
+
+3. Runtime Column Variation
+
+- IMDb had multiple runtime column names; TMDB had different ones.
+
+- We solved this with inference logic to detect whichever runtime field was present.
+
+4. Persistent Missing Data
+
+- Expected and documented — not an error, but a property of combining two fundamentally different sources.
+
+6. Contribution Statements
+
+## Diya
+
+- Completed all dataset acquisition and ethics review
+
+- Wrote notes on data licensing
+
+- Explored raw datasets in Week 1
+
+- Helped outline Exploration plan for Week 4
+
+- Will lead workflow automation + documentation in Week 6
+
+## Brianna
+
+- Completed all Week 2 data cleaning: OpenRefine exploration, Python scripts, final cleaned CSVs
+
+- Built entire Week 3 integration pipeline
+
+- Wrote IMDB_TMDB_Analysis.md in full
+
+- Created workflow diagrams and integration README
+
+- Generated merged_movies.csv + merge_log.json
+
+- Completed assigned section of Week 4 EDA preparations
+
+- Will complete Week 5 visualizations on time
+  
+### Both members will collaborate on the final polishing stages.
+
+## Final Summary
+
+We completed Weeks 1–4 exactly on schedule and produced a fully cleaned and integrated movie dataset with transparent documentation at every stage. The project is progressing smoothly, the workflow is reproducible, and we have a clear path for completing analysis, visualization, and reporting before the final deadline.
+
+## Updated Project Timeline
+
+| Week | Task | Responsible | Status / Notes | Deliverable |
+|------|------|-------------|----------------|------------|
+| 1    | Acquire and explore datasets, review ethical guidelines | Diya | Completed ✅ | Raw data & notes on licensing |
+| 2    | Data cleaning (missing values, outliers, duplicates) | Brianna | Completed ✅ | Cleaned datasets (imdb_cleaned.csv, tmdb_cleaned.csv), OpenRefine analysis & history files, Python cleaning scripts & notebooks |
+| 3    | Integrate IMDb & TMDB datasets using common keys (titles/IDs) | Brianna | Completed ✅ | Integrated dataset and merge log from Jupyter notebook & Python scripts, as well as an analysis document |
+| 4    | Conduct exploratory data analysis | Both | Completed ✅ | Initial graphs & descriptive stats/initial analysis |
+| 5    | Create visualizations & interpret findings | Brianna | Planned (to be completed by Sunday, Nov 23) | Visualizations (correlation heatmap, trends) |
+| 6    | Automate workflow & finalize documentation | Diya | Planned for first week of December | Reproducible pipeline & README |
+| 7    | Submit final GitHub release | Both | Planned Dec 6–9 for final checks, submission Dec 10 | Final project submission |
