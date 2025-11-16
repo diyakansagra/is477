@@ -39,6 +39,12 @@ Document observations
 
 - Take notes on interesting trends, outliers, or unexpected results. These notes will feed into Week 5 interpretation.
 
+### Missing Data & Quality Checks
+
+- Check for missing or inconsistent values that may have been introduced during integration.
+
+- Document which variables still have blanks and whether Week 5 visualizations will require handling missing data.
+
 ## Tasks for Diya
 
 ### Categorical Comparisons
@@ -58,12 +64,6 @@ Analyze trends over time:
 - Budget and revenue over time
 
 - Identify decades or years with unusual spikes or drops in ratings/popularity.
-
-### Missing Data & Quality Checks
-
-- Check for missing or inconsistent values that may have been introduced during integration.
-
-- Document which variables still have blanks and whether Week 5 visualizations will require handling missing data.
 
 ### EDA Summary Document
 
