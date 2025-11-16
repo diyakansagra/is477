@@ -162,7 +162,7 @@ This week involved building the complete integration pipeline. Major steps:
 
 ## Week 4 Exploratory Data Analysis (Brianna & Diya)
 
-## Status: Completed ✅
+## Status: Almost Completed 
 
 
 
@@ -263,7 +263,7 @@ This week involved building the complete integration pipeline. Major steps:
 
 ## Final Summary
 
-We completed Weeks 1–4 exactly on schedule and produced a fully cleaned and integrated movie dataset with transparent documentation at every stage. The project is progressing smoothly, the workflow is reproducible, and we have a clear path for completing analysis, visualization, and reporting before the final deadline.
+We completed Weeks 1–3 exactly on schedule and produced a fully cleaned and integrated movie dataset with transparent documentation at every stage. The project is progressing smoothly, the workflow is reproducible, and we have a clear path for completing analysis, visualization, and reporting before the final deadline.
 
 ## Updated Project Timeline
 
