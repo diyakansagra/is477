@@ -39,7 +39,7 @@ The files contain the analysis and visualizations that address my assigned tasks
    
    - Notes on how missing data may be addressed during Week 5 analysis to ensure accurate and meaningful results.
 
-## Notes
+## IMPORTANT Notes
 
 These files include thorough and detailed comments that walk the reader step by step through the analysis. The comments explain what the code is doing, why each step is being performed, and how it relates to our research questions. It provides a surfae level analysis, as well as possible implications for Week 5.
 
