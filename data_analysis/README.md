@@ -51,7 +51,7 @@ Document observations
 
 - Explore relationships between genres and ratings/popularity.
 
-- Create pivot tables or grouped summaries (e.g., average IMDb rating by genre, average popularity by genre, counts of movies per genre per decade).
+- Create pivot tables or grouped summaries (average IMDb rating by genre, average popularity by genre, counts of movies per genre per decade).
 
 ### Temporal Trends
 
@@ -79,8 +79,8 @@ Start drafting a Week 4 EDA summary Markdown file (Week_4_EDA.md) describing:
 
 ## Deliverables for Week 4
 
-- Week_4_EDA.md – Markdown summary of exploratory analysis
+- Week_4_EDA.md – Markdown summary of exploratory analysis - Diya 
 
-- Plots folder with preliminary figures (Week_4_EDA_plots)
+- Plots folder with preliminary figures and analysis (Week_4_EDA_plots) - Brianna 
 
-- Tables folder with grouped summaries and pivot tables (Week_4_EDA_tables)
+- Tables folder with grouped summaries and pivot tables (Week_4_EDA_tables) - Diya
