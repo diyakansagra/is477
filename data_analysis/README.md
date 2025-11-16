@@ -1,3 +1,5 @@
+## Week 4 (Initial Graphs & Exploratory Analysis)
+
 This folder contains all initial Exploratory Data Analysis (EDA) done with our integration set. We revisit our researach questions and conduct analysis to draw tangible conclusions from the dataset.
 
 ## Goal:
