@@ -272,7 +272,7 @@ We completed Weeks 1–4 exactly on schedule and produced a fully cleaned and in
 | 1    | Acquire and explore datasets, review ethical guidelines | Diya | Completed ✅ | Raw data & notes on licensing |
 | 2    | Data cleaning (missing values, outliers, duplicates) | Brianna | Completed ✅ | Cleaned datasets (imdb_cleaned.csv, tmdb_cleaned.csv), OpenRefine analysis & history files, Python cleaning scripts & notebooks |
 | 3    | Integrate IMDb & TMDB datasets using common keys (titles/IDs) | Brianna | Completed ✅ | Integrated dataset and merge log from Jupyter notebook & Python scripts, as well as an analysis document |
-| 4    | Conduct exploratory data analysis | Both | Completed ✅ | Initial graphs & descriptive stats/initial analysis |
+| 4    | Conduct exploratory data analysis | Both | 80% Completed | Initial graphs & descriptive stats/initial analysis |
 | 5    | Create visualizations & interpret findings | Brianna | Planned (to be completed by Sunday, Nov 23) | Visualizations (correlation heatmap, trends) |
 | 6    | Automate workflow & finalize documentation | Diya | Planned for first week of December | Reproducible pipeline & README |
 | 7    | Submit final GitHub release | Both | Planned Dec 6–9 for final checks, submission Dec 10 | Final project submission |
