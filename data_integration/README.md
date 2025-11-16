@@ -1,3 +1,5 @@
+## data_integration Folder
+
 This folder contains all files related to the integration of the IMDb and TMDB datasets. It includes the analysis, integration scripts (in two formats for transparency and readability), and the resulting outputs. A brief summary of each file and subfolder is provided below.
 
 ## IMDB_TMDB_Analysis.md
