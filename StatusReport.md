@@ -164,18 +164,70 @@ This week involved building the complete integration pipeline. Major steps:
 
 ## Status: Almost Completed 
 
+## Work Completed so far:
 
+### Folder: data_analysis/Week_4_EDA_plots/:
 
+### Includes:
 
+Week_4_Brianna's_EDA.ipynb – Jupyter Notebook version
 
+Week_4_Brianna's_EDA.py – Python script version
 
+### Summary:
 
+For Week 4, so far Brianna completed the exploratory data analysis (EDA) of the merged IMDb and TMDB dataset (merged_movies.csv). The analysis covers all assigned tasks and provides the foundation for Week 5 interpretation.
 
+### Tasks Addressed and Corresponding Analysis:
 
+### Variable Analysis
 
+Plotted distributions of numeric variables (budget_in_millions, revenue_in_millions, popularity, rating_imdb, vote_average_tmdb, runtime_imdb, runtime_tmdb) to identify skewness, outliers, and typical ranges.
 
+Plotted categorical variables (genre_imdb, genre_tmdb, release_year) using bar charts and histograms to examine frequency distributions.
 
+Computed descriptive statistics (mean, median, standard deviation, min/max) and missing value counts for numeric columns.
 
+### Notes: Initial observations on skewness, outliers, and trends were documented to guide Week 5 deeper analysis.
+
+### Correlation Analysis
+
+Computed correlation matrix for numeric variables.
+
+Created a heatmap to visually identify strong and weak relationships, highlighting patterns like budget vs revenue and ratings vs popularity.
+
+### Notes: Heatmap provided a clearer, intuitive view of relationships and potential areas for deeper analysis.
+
+### Preliminary Scatter Plots
+
+Plotted budget vs revenue, rating_imdb vs popularity, and runtime_imdb vs rating_imdb.
+
+Color-coded by genre to identify initial patterns or clustering by movie type.
+
+### Notes: Observed outliers and interesting relationships that will be investigated further in Week 5.
+
+### Missing Data & Quality Checks
+
+Identified variables with missing values.
+
+Documented rationale for persistent missing data due to differences between IMDb and TMDB tracking (e.g., revenue vs popularity).
+
+### Notes: Rows will be used cautiously in Week 5 to ensure only relevant, complete data is included for each analysis.
+
+### Additional Notes:
+
+The notebook and .py files include thorough inline comments explaining what each step does, why it is performed, and how it relates to the research questions.
+
+The EDA serves as a foundation for Week 5, highlighting trends, outliers, and patterns that inform deeper analysis and visualization.
+Observations and initial findings were noted for later interpretation, including skewed distributions, common genres, and correlations worth exploring further.
+
+## Work Created:
+
+Jupyter Notebook: Week_4_Brianna's_EDA.ipynb
+
+Python Script: Week_4_Brianna's_EDA.py
+
+Initial plots saved in Week_4_EDA_plots/ folder for reference.
 
 ## Changes to the Project Plan
 
