@@ -1,3 +1,5 @@
+## data_cleaning Folder
+
 This folder contains the data cleaning scripts and documentation for our project. Within this folder, you will find three subfolders:
 
 ## OpenRefine_History:
