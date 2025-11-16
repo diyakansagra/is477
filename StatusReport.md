@@ -16,32 +16,146 @@ I acquired both the IMDb Top 1000 and TMDb Movie Metadata datasets from Kaggle a
 
 ### Status: Completed 
 
-### Work Referenced:
+## Work Completed in Main Folder (data_cleaning):
 
-/integration/Week_2_DataCleaning.ipynb
+## Subfolder 1: OpenRefine_History/
 
-/integration/Week_2_DataCleaning.py
+### Includes:
 
-/integration/cleaned/imdb_cleaned.csv
+IMDB_TMDB_OpenRefine_Analysis.md
 
-/integration/cleaned/tmdb_cleaned.csv
+IMDB_OpenRefine_History.json
 
-### Summary of Progress:
+TMDB_OpenRefine_History.json
 
-This stage focused on preparing both datasets for integration by addressing:
+IMDB_OpenRefine_Semi_Clean.csv
 
-Inconsistent column names
+TMDB_OpenRefine_Semi_Clean.csv
 
-Title formatting differences
+### Summary:
 
-Missing release years
+OpenRefine was used for exploratory analysis, spotting missing values, duplicates, formatting inconsistencies, and structural issues.
 
-Duplicate entries
+### Critical notes:
 
-Outliers in runtime, financial metrics, and vote counts
+No transformations from OpenRefine were final.
 
-Normalization steps such as replacing special characters, converting titles to lowercase, and standardizing runtime and date formats were implemented. 
+The goal was to understand issues and translate that knowledge into reproducible Python code.
 
-All cleaning steps are fully documented in the notebook and exported to a reproducible .py script for transparency.
+The analysis files document the reasoning behind each cleaning decision.
 
-The cleaned datasets produced here became the inputs for Week 3’s integration pipeline.
+## Subfolder 2: python_cleaning_scripts/
+
+### Includes:
+
+Week_2_Cleaning_IMDB_Data.ipynb
+
+Week_2_Cleaning_TMDB_Data.ipynb
+
+Week_2_Cleaning_IMDB_Data.py
+
+Week_2_Cleaning_TMDB_Data.py
+
+### Summary:
+
+These Python scripts apply all final data cleaning operations in a reproducible way, including:
+
+ - standardizing text formats
+
+ - parsing runtimes and years
+
+ - handling missing values
+
+ - removing duplicates
+
+ - resolving discrepancies found in OpenRefine
+
+ - The notebooks contain explanations and visual output checks.
+
+ - The .py scripts contain the exact logic for automation and workflow reproducibility.
+
+## Subfolder 3: Cleaned_Data/
+
+### Includes:
+
+imdb_cleaned.csv
+
+tmdb_cleaned.csv
+
+These are the fully cleaned datasets derived from the python scripts while utilizing out findings from the OpenRefine exploration, these sets are ready for Week 3 integration.
+
+## Week 3 IMDb & TMDB Integration - Brianna
+
+### Status - Completed 
+
+## Work Completed in Main Folder (data_integration):
+
+### Includes:
+
+IMDB_TMDB_Analysis.md
+
+Week_3_IMDB_TMDB_Integration.ipynb
+
+Week_3_IMDB_TMDB_Integration.py
+
+## Subfolder: integration_output/
+
+### Contains:
+
+merged_movies.csv
+
+merge_log.json
+
+### Summary:
+
+This week involved building the complete integration pipeline. Major steps:
+
+1. Standardizing Columns & Keys
+
+- created title_norm
+
+- normalized release years
+
+- aligned IMDb/TMDB schemas
+
+2. Exact Merge
+
+- Performed on (title_norm, release_year).
+
+3. Fuzzy Matching for Unmatched Titles
+
+- used token_sort_ratio
+
+- applied thresholds to reduce false positives
+
+- matched previously unmatched IMDb/TMDB rows
+
+4. Data Fusion
+
+- Filled missing IMDb fields using TMDB (and vice versa).
+
+- Some missingness remains by design, because:
+
+- IMDb tracks metascore + gross revenue → TMDB does not
+
+- TMDB tracks popularity + vote averages → IMDb does not
+
+5. Conflict Resolution
+
+### Rules included:
+
+- prefer IMDb for original titles
+
+- prefer TMDB for popularity/ratings
+
+- use longest overview text
+
+- infer runtime columns from different naming conventions (runtime_imdb, runtime_in_minutes, etc.)
+
+6. Output Generation
+
+- merged_movies.csv = final dataset
+
+- merge_log.json = transparent report of match counts, fuzzy matches, exact matches, and unmatched rows
+
+- A full conceptual workflow diagram and written explanation exist in IMDB_TMDB_Analysis.md.
