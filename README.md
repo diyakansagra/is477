@@ -5,6 +5,10 @@
 
 •	Diya Kansagra
 
+## Box Link:
+
+https://uofi.box.com/s/uty10bvkkz2qsl6hmhiut9f157g3blfu
+
 ## Summary:
 
 This project examines how different movie characteristics relate to audience reception by integrating and analyzing data from two widely used movie information platforms, IMDb and TMDB. The goal is to understand what factors most strongly influence how successful a movie is, while also demonstrating how a transparent and reproducible data pipeline can be built when working with real-world datasets from multiple sources.
