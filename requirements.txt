@@ -1,0 +1,23 @@
+# Core data handling
+pandas: at least verson 1.5
+numpy: at least version 1.23
+OpenRefine: at least version 3.9
+
+# Visualization
+matplotlib: at least version 3.6
+seaborn: at least version 0.12
+
+# Jupyter / notebooks
+jupyter: at least versoin 1.0
+ipykernel: at least version 6.0
+
+# Fuzzy matching for data integration
+rapidfuzz: at least version 2.0
+
+# Workflow automation 
+snakemake: at least version 7.0
+
+# Utilities
+#tqdm is used to provide visual progress indicators for long-running loops (fuzzy matching and integration), while python-dateutil supports reliable date and year parsing required by pandas during cleaning and analysis.
+python-dateutil: at least version 2.8
+tqdm: at least version 4.64
