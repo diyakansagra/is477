@@ -124,6 +124,18 @@ All file paths, inputs, and outputs are explicitly documented within the reposit
 
 ## References:
 
+IMDb Top 1000 Movies Dataset
+Chong, A. (2021). IMDb Top 1000 Movies [Dataset]. Kaggle. https://www.kaggle.com/datasets/arthurchongg/imdb-top-1000-movies/data
+
+TMDb Movie Metadata Dataset
+The Movie Database (TMDb). (2017). TMDb Movie Metadata [Dataset]. Kaggle. https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+Visual Studio Code
+Microsoft. (2024). Visual Studio Code (Version 1.xx) [Software]. https://code.visualstudio.com/
+
+Jupyter Notebook
+Kluyver, T., Ragan-Kelley, B., Pérez, F., Granger, B. E., & Jupyter Development Team. (2016). Jupyter Notebook [Software]. https://jupyter.org/
+
 ## Contribution Statement - Brianna Marroquin:
 
 I served as the primary contributor for data cleaning, data integration, exploratory analysis, final visualization, and analytical interpretation throughout this project. My contributions span Weeks 2 through 5 and include the design and implementation of reproducible workflows, in-depth documentation, and final analytical outputs. A detailed breakdown of my work is provided below.
