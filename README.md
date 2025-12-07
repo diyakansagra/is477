@@ -110,6 +110,196 @@ All file paths, inputs, and outputs are explicitly documented within the reposit
 
 ## References:
 
+## Contribution Statement - Brianna Marroquin:
+
+I served as the primary contributor for data cleaning, data integration, exploratory analysis, final visualization, and analytical interpretation throughout this project. My contributions span Weeks 2 through 5 and include the design and implementation of reproducible workflows, in-depth documentation, and final analytical outputs. A detailed breakdown of my work is provided below.
+
+## Data Cleaning & Quality Assessment (Week 2)
+
+I led the data cleaning efforts for both the IMDb and TMDB datasets, focusing on identifying, documenting, and resolving data quality issues in a reproducible manner.
+
+### Artifacts created and maintained:
+
+### Folder: data_cleaning/
+
+### Subfolder: OpenRefine_History/
+
+IMDB_OpenRefine_Analysis.md
+
+TMDB_OpenRefine_Analysis.md
+
+IMDB_OpenRefine_History.json
+
+TMDB_OpenRefine_History.json
+
+IMDB_OpenRefine_Semi_Clean.csv
+
+TMDB_OpenRefine_Semi_Clean.csv
+
+### Responsibilities and work performed:
+
+Conducted exploratory data profiling in OpenRefine to identify missing values, duplicate records, inconsistent text formatting, and schema irregularities.
+Documented all observed data quality issues and reasoning for later cleaning decisions.
+
+Explicitly separated exploratory inspection from final transformations to ensure reproducibility and auditability.
+
+Verified that no irreversible or undocumented transformations were applied at the OpenRefine stage.
+
+### Python-based reproducible cleaning:
+
+### Subfolder: python_cleaning_scripts/
+
+Week_2_Cleaning_IMDB_Data.ipynb
+
+Week_2_Cleaning_TMDB_Data.ipynb
+
+Week_2_Cleaning_IMDB_Data.py
+
+Week_2_Cleaning_TMDB_Data.py
+
+### Responsibilities and work performed:
+
+Implemented all final cleaning steps in Python, including:
+
+Standardizing text fields
+
+Parsing runtimes and release years into consistent numeric formats
+
+Removing duplicates based on defined criteria
+
+Identifying and documenting missing values rather than removing them indiscriminately
+
+Produced reproducible scripts and notebooks with step-by-step comments explaining each transformation and its purpose.
+
+### Final cleaned datasets:
+
+### Subfolder: Cleaned_Data/
+
+imdb_cleaned.csv
+
+tmdb_cleaned.csv
+
+## Data Integration & Fusion (Week 3)
+
+I designed and implemented the full IMDb–TMDB integration pipeline, including schema alignment, matching logic, conflict resolution, and provenance tracking.
+Artifacts created and maintained:
+
+### Folder: data_integration/
+
+IMDB_TMDB_Analysis.md
+
+Week_3_IMDB_TMDB_Integration.ipynb
+
+Week_3_IMDB_TMDB_Integration.py
+
+### Responsibilities and work performed:
+
+Standardized schemas between IMDb and TMDB to remove ambiguity between overlapping fields.
+
+Designed and implemented normalized matching keys (title_norm, standardized release_year) to support reliable integration.
+Implemented an exact matching pass using normalized titles and release years.
+
+Identified remaining unmatched records and introduced a fuzzy matching approach using token-based similarity thresholds.
+Tuned fuzzy matching conservatively to avoid false positives and documented all matching outcomes.
+
+### Data fusion and provenance:
+
+### Subfolder: integration_output/
+
+merged_movies.csv
+
+merge_log.json
+
+### Responsibilities and work performed:
+
+Designed conflict-resolution rules for overlapping fields, including:
+
+Preserving IMDb ratings separately from TMDB popularity scores
+
+Retaining both runtime values (runtime_imdb, runtime_tmdb)
+
+Avoided overwriting values when source disagreement existed.
+
+Generated a merge log documenting exact matches, fuzzy matches, and unmatched rows to support downstream transparency.
+
+Wrote a full conceptual workflow explanation and documentation in IMDB_TMDB_Analysis.md.
+
+## Exploratory Data Analysis (Week 4)
+
+I completed the exploratory data analysis required for Week 4, focusing on identifying patterns, relationships, and data limitations that inform Week 5 analysis.
+
+Artifacts created and maintained:
+
+Folder: data_analysis/Week_4_EDA_plots/
+
+Week_4_Brianna's_EDA.ipynb
+
+Week_4_Brianna's_EDA.py
+
+### Responsibilities and work performed:
+
+Conducted variable distribution analysis for numeric fields (budget, revenue, popularity, ratings, runtimes).
+
+Analyzed categorical distributions for genres and release years.
+
+Computed descriptive statistics and missing value summaries.
+
+Generated correlation matrices and heatmaps to identify candidate relationships.
+
+Created preliminary scatter plots for budget vs revenue, rating vs popularity, and runtime vs rating.
+
+Documented all observations directly in code comments, explicitly noting outliers, skewness, and planning implications for Week 5.
+
+Ensured that notebooks and scripts could be run independently for reproducibility.
+
+## Final Visualizations & Interpretation (Week 5)
+
+I completed the final analysis, visualization design, and interpretive writing aligned with the project’s research questions.
+
+### Artifacts created and maintained:
+
+### Folder: data_analysis/Week_5_Final_Visualizations/
+
+Week_5_Final_Visualizations.ipynb
+
+Week_5_Final_Visualizations.py
+
+Week_5_Final_Analysis.md
+
+### Responsibilities and work performed:
+
+Designed polished visualizations (boxplots, scatter plots, trend plots) focusing on:
+
+Genre vs ratings and popularity
+
+Budget vs revenue with logarithmic scaling
+
+Ratings vs popularity comparisons
+
+Runtime and release-year relationships
+
+Justified methodological choices such as logarithmic transformations for skewed financial variables.
+
+Wrote detailed analytical interpretations linking visuals directly to research questions.
+
+Explicitly connected quantitative results to broader implications about popularity versus quality.
+
+Separated exploratory commentary (Week 4) to interpretive conclusions (Week 5) for clarity and rigor.
+
+Maintained Documentation, Structure, and Reproducibility
+
+### Additional responsibilities:
+
+Created and maintained detailed inline comments across all scripts and notebooks explaining not only what the code does, but why each step was taken.
+
+Helped structure the repository into clear folders separating cleaning, integration, EDA, and final analysis.
+
+Contributed equally to the README.md sections and Mideterm report
+
+Ensured that all analysis artifacts I worked on were provided in both .ipynb and .py formats to maximize accessibility and transparency.
+
+## Contribution Statement - Diya Kansagra:
+
 
 
 
