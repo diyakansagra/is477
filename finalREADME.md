@@ -326,7 +326,20 @@ Ensured that all analysis artifacts I worked on were provided in both .ipynb and
 
 ## Contribution Statement - Diya Kansagra:
 
+I served as a primary contributor for dataset acquisition, ethics and licensing review, exploratory data analysis planning, and workflow automation and documentation throughout this project. My contributions span Weeks 1 through 6 and include exploration of raw datasets, assessment of ethical and licensing constraints, drafting documentation and references, assisting with the Week 4 analysis, and implementing reproducible workflow automation.
 
+### Dataset Acquisition & Ethics Review (Week 1–2)
 
+I acquired both the IMDb Top 1000 and TMDb Movie Metadata datasets from Kaggle and began reviewing their provenance, licensing, and ethical implications. I documented potential compliance concerns, including restrictions on redistribution and commercial use, and compiled notes on proper attribution and usage constraints for inclusion in our project repository. Additionally, I worked on locating explicit licensing information to address feedback on our Project Plan. During this period, I explored the raw datasets to gain familiarity with their structure, fields, and data quality issues, supporting later data cleaning and integration tasks.
 
+### Exploratory Analysis Planning (Week 4)
 
+I contributed to outlining the Week 4 exploration plan, focusing on identifying relationships between categorical variables (such as genres, ratings, and popularity) and temporal trends (including ratings, popularity, budget, and revenue over time). I assisted in designing summaries, pivot tables, and grouped analyses to examine patterns across decades or highlight anomalous spikes or drops in variables of interest. I also helped begin drafting the Week 4 EDA summary documentation, noting which columns and variables would be analyzed, key observations from distributions, correlations, and trends, and initial ideas for Week 5 visualizations. I also assisted in creating the visualizations for temporal trends by creating histograms for the datasets.
+
+### Workflow Automation & Documentation (Week 6)
+
+I led the implementation of workflow automation to ensure reproducibility across the entire project. I created the run_all.py script to sequentially execute data cleaning, integration, and analysis steps, providing a unified pipeline for both Python scripts and Jupyter notebooks. I also authored and finalized documentation for dataset provenance, licensing, and ethical considerations, and compiled references for all datasets and software used, including Visual Studio Code and Jupyter Notebook. These materials were organized to maximize transparency, reproducibility, and accessibility for anyone reviewing our project outputs.
+
+### Additional Contributions
+
+Throughout the project, I provided guidance on referencing datasets and software in APA/MLA style, clarified ethical considerations for data use, and ensured that documentation reflected best practices for reproducible research.
